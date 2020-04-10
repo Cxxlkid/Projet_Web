@@ -176,6 +176,10 @@ footer {
 }
 #panierinfos {
 	margin-top: 50px;
-	margin-left: 700px;
-	font-size: 20px;
+	margin-left: 650px;
+	font-size: 25px;
+}
+.imagespanier {
+    width: 75px;
+	margin-left:30px;
 }

@@ -30,19 +30,23 @@
 
 <div>
       <div id="panierinfos">
+	   <section id="panierinfostexte">
         <h2>Votre Panier :</h2>
         <ul>
-          <li>-article1
-          <li>-article2
+          <li>-Poti pot bleu 5₿<img class="imagespanier" src="Potdefleurimage/poti_pot_bleu.jpg" alt="article1">
+          <li>-Pot à chat 9995₿<img class="imagespanier" src="Potdefleurimage/pot_de_chat.jpg" alt="article2">
         </ul>
-        <p>Pour un total de <u>X₿</u></p>
+		<br>
+        <p>Pour un total de <u>10k₿</u></p>
+		</section>
+		
 	  </div>
         <form id="infosclients" method="post" action="order.html">
             <h3>Vos coordonnées</h3><br>
-            <input type="text" name="name" placeholder="Nom Complet"/><br>
+            <input type="text" name="name" placeholder="Nom Prénom"/><br>
             <input type="text" name="address" placeholder="Adresse"/><br>
-            <input type="text" name="zip" placeholder="Code Postal"/><br>
-            <input type="text" name="city" placeholder="Ville"/><br>
+            <input type="text" name="CP" placeholder="Code Postal"/><br>
+            <input type="text" name="ville" placeholder="Ville"/><br>
             <p style="font-size:20px;">Mode de livraison :</p>
             <label>TRES TRES RAPIDE (dans 10 min) <input type="radio" name="tempslivr" value="express" checked></label>
             <label>Dans des délais plus ou moins normaux (1-7 jours selon le livreur) <input type="radio" name="tempslivr" value="normal" checked></label>
