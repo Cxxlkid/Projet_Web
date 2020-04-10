@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>POTFLEURGANG</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="Potdefleurimage/icone.png" />
+</head>
+<body>
+<header>
+	<nav>
+        <ul>
+		    <li><a href="about.html">Qui sommes-nous ?</a></li>
+            <li><a href="produits.html">Produits</a></li>
+        </ul>
+      </nav>
+	<a href="accueil.html"><h1><img id="icon" src="Potdefleurimage/icone.png" alt="Logo">POTDEFLEURGANG</h1></a>
+	  <nav>
+        <ul>
+            <li><a href="panier.html"> <u>Panier</u><img id="panier" src="Potdefleurimage/panier.png" alt="Panier"></a></li>
+            <li>
+              <form id="search" method="post" action="produits.html">
+                  <input type="search" name="search" placeholder="Rechercher..."/>
+				  <input type="image" src="Potdefleurimage/loupe.png" alt="submit" width="17" height="17"/>
+              </form>
+            </li>
+        </ul>
+      </nav>
+</header>
+
+<div>
+      <div id="panierinfos">
+        <h2>Votre Panier :</h2>
+        <ul>
+          <li>-article1
+          <li>-article2
+        </ul>
+        <p>Pour un total de <u>X₿</u></p>
+	  </div>
+        <form id="infosclients" method="post" action="order.html">
+            <h3>Vos coordonnées</h3><br>
+            <input type="text" name="name" placeholder="Nom Complet"/><br>
+            <input type="text" name="address" placeholder="Adresse"/><br>
+            <input type="text" name="zip" placeholder="Code Postal"/><br>
+            <input type="text" name="city" placeholder="Ville"/><br>
+            <p style="font-size:20px;">Mode de livraison :</p>
+            <label>TRES TRES RAPIDE (dans 10 min) <input type="radio" name="tempslivr" value="express" checked></label>
+            <label>Dans des délais plus ou moins normaux (1-7 jours selon le livreur) <input type="radio" name="tempslivr" value="normal" checked></label>
+			<label>Super lent (1-10 ans selon le livreur) <input type="radio" name="tempslivr" value="lent" checked></label>
+            <p style="font-size:20px;">Mode de paiement:</p>
+			<label>Paiement en nature (seulement en boutique)<input type="radio" name="pay" value="₿" checked></label>
+			<label>Bitcoin ₿<input type="radio" name="pay" value="₿" checked></label>
+            <input id="buy" type="button" value="Commander"/>
+        </form>
+</div>
+
+<footer>
+ <i>Site crée par deux fabuleux hackers Romain Dupré et Kilian Vest</i>
+</footer>
+</body>
+
+</html>

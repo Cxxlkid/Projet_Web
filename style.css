@@ -3,8 +3,14 @@
   padding: 0;
   font-family: 'Arial';
 }
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
 body {
   background-color: #FFFFFF;
+  display : table;
+  width: 100%;
 }
 a {
   text-decoration: none;
@@ -41,6 +47,15 @@ header form {
 	Margin-top:35px;
 	align-items:center;
 }
+#contenuQui {
+  display:flex;
+  flex-direction:column ;
+  margin:auto;
+  width:80%;
+  margin-bottom:50px;
+  padding: 10px;
+  text-align: justify; 
+}
 #descriptionacceuil{
   display: inline;
   padding: 10px;
@@ -54,6 +69,46 @@ header form {
 }
 #descriptionacceuil P{
 	font-size:150%;
+}
+#contenuQui h2 {
+  margin-top:15px;	
+}
+#nous{
+  margin-top:10px;
+}
+
+#contenuQui h3 {
+  	margin-top:15px;
+	padding-left:25px;
+}
+#ville_du_congo {
+  display:flex;
+  margin:auto;
+  width:40%;	
+}
+#lgdInongo {
+  text-align:center;
+  font-style:italic;
+  font-size:70%;
+}
+#joindre{
+  display:flex;
+  flex-direction:column;
+  padding-left:20px;	
+}
+#horaires {
+  display:flex;
+  align-items:center; 
+}
+#timetable {
+  	border:collapse;
+}
+table,
+td {
+  border: 2px solid #000000;	
+  text-align:center;
+  padding:2px;
+  background-color : #d0d0d0;
 }
 #promo {
   text-align: center;
@@ -103,8 +158,24 @@ header form {
 footer {
   background-color: #E0E0E0;
   text-align: center;
-  width:100%;
-  bottom: 0;
+  width: 100%;	
   padding: 5px;
-  position: absolute; bottom: 0;
+  display : table-row;
+  height: 5px
+}
+#infosclients {
+  background-color: #D0D0D0;
+  border-radius: 20px;
+  padding: 5%;
+  margin: 10%;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+#panierinfos {
+	margin-top: 50px;
+	margin-left: 700px;
+	font-size: 20px;
 }
