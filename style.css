@@ -183,7 +183,9 @@ footer {
     width: 75px;
 	margin-left:30px;
 }
-
+.image1 {
+	width: 250px;
+}
 #imgProd {
 	display:block;
 margin-left:auto;
